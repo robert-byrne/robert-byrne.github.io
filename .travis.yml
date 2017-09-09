@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+   "6.11.3"
+script:
+  echo "Deploy"
+install:
+  npm install -g firebase-tools
+after_success:
+  firebase deploy --project main-website-3664c --token $FIREBASE_TOKEN
