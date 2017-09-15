@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Flex Box Demo</title>
+    <link rel='stylesheet' href='styleFlexNav.css'/>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById('myTopNav');
+
+          if(x.className==="topnav")
+          {
+              x.className+=" responsive";
+          }
+          else x.className="topnav";
+      }
+  </script>
+  </head>
+  <body>
+	<main>
+	  <header>
+	  Header
+	  </header>
+
+		<nav class="topnav" id="myTopNav">
+			<a href="#">HOME</a>
+			<a href="#">Link 2</a>
+			<a href="#">Link 3</a>
+			<a href="#">Link 4</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</nav>
+
+		<section>
+		<article>
+		  Article 1
+		</article>
+
+		<aside>
+		  Aside 2
+		</aside>
+
+	  </section>
+
+	 <footer>
+		Footer
+	 </footer>
+	</main>
+
+
+
+
+  </body>
+
+
+
+</html>

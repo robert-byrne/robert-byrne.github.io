@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>About This Page</title>
+    <link rel="stylesheet" href="aboutstyle.css">
+    <link rel="icon" href="homeicon.png">
+  </head>
+  <script>
+    function myFunction() {
+      var x = document.getElementById('myTopNav');
+
+        if(x.className==="topnav")
+        {
+            x.className+=" responsive";
+        }
+        else x.className="topnav";
+    }
+</script>
+  <body>
+    <nav class="topnav" id="myTopNav">
+      <a href="index.html">Home</a>
+      <a href="data.html">Data Page</a>
+      <a href="otherresources.html">Other Resources</a>
+      <a href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <hgroup>
+      <h1>About This Site:</h1>
+    </hgroup>
+    <p>
+    This page was designed with responsiveness in mind. The other goal of this page is to create a potential prototype for the new look the css of my web page will look like.
+    </p>
+    <p>
+      This page was designed by a Computer Science student. The creator of this page intends for me to be sentient.
+    </p>
+    <img src="meme-sentient.jpg">
+    <p>This site is hosted through Github. This makes it easy to track changes and find bugs within the website.</p>
+    <img src="github.jpg">
+    <p>Github is a great source to host sites, since they offer a reasonable free package for hosting. <a href="https://education.github.com/pack">They also offer good packages for students.</a>
+    <p>The developer of this website really enjoys working with computers. He has been interested in them and programming for a long time. He likes programming and is interested in other aspects of technology as well.</p>
+    <p>A great programming environment to use is <a href="https://atom.io/">Atom</a>. Interestingly enough, atom is written using html, javascript, css, and node.js. However, it works very well for writing code.</p>
+    <img src="atom-logo.jpg">
+    <p>Another unique and somewhat new programming environment is Electron. This is another open source tool made by GitHub. This is an interesting system because it allows you to develop apps like a web app would, except with the benefits of a normal program including file system access. The programs are written in html, css, node.js and javascript. Interestingly enough, this is the framework/environment that Atom is built on, so programs such as Atom, GitHub Desktop, and even Slack. The applications designed in Electron are natively cross-platform, allowing one to program in one set of instructions and not need to make different version of the program for each OS. One doesn't even need to worry about browser versions or styles, since the "browser" that Electron uses to display the program is packaged into the install, along with each part of the program. Thus, the whole program can be written, packaged, and contained in a nice installer that can come in different versions for each OS.</p>
+    <img src="electron-flow-chart.jpg"
+  </body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61009359-2', 'auto');
+  ga('send', 'pageview', location.pathname);
+
+</script>
+
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="robert-byrne.GitHub.io : Minecraft EDU Troubleshooting-Common Errors ">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css">
+
+    <title>MinecraftEDU-Common Errors</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+
+          <h1 id="project_title">Minecraft EDU Troubleshooting</h1>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<!--<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>MinecraftEDU Resources</h3>-->
+
+<p>Welcome to the MinecraftEDU Errors Page. This page is aimed at addressing different errors that may occur in a Minecraft EDU environment.</p>
+<a id="minecraft-edu-link" class="anchor" href="#minecraftedulink" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Multiplayer Errors</h3>
+
+<p> When working with Minecraft EDU, you might encounter several different types of errors. Each of these errors have some underlying cause, but some solutions are easier to understand and some are much more involved. Before trying the steps below, follow some of the basic steps provided for troubleshooting on the <a href="https://robert-byrne.github.io/minecraftedutroubleshooting/generalissues.html/">General Issues</a> page.</p>
+<p> <br>One type of error you might encounter when working with MinecraftEDU is the "Connection Refused: Connect" error.</p>
+<img src="images-CommonErrors/ConnectionRefused-Connect.jpg" alt="Image of the Connection Refused-Connect Error" width="869" height="516">
+<p>This error often shows in a situation where the connection is unreachable. This may be because of an error typed in the ip address/port area. Try double checking that the entered ip address is correct with the server ip address, and double check that the software being run is Minecraft EDU, not just normal Minecraft.If the error persists, double check that the computer is on the correct wifi network and try restarting the software. If these issues are consistent across multiple devices make sure that the server system is runnning with the server marked as online, that the server computer is on the correct network, and try restarting the software. This error might also be representative of a mod issue (Minecraft EDU has several mods built in that can be turned on or off). Look under the mods menu on the server during start up and on the game computers, and make sure they match between active and inactive.</p>
+<p><br>Another common error you might encounter when working with Minecraft EDU is the "Connection Timed Out" error. </p>
+<img src="images-CommonErrors/ConnectionTimedOutExample1.png" alt="First Image of the Connection Timed Out Error" width="869" height="516">
+<img src="images-CommonErrors/ConnectionTimedOutExample2.png" alt="Second Image of the Connection Timed Out Error" width="869" height="516">
+<p>These are two different examples of the error. While the exact error code is different, they address two very similar things. In both cases, the underlying cause can be fairly broad. Essentially, the game or server could not keep up with each other and stay in sync. This could be a result of internet/network issues. Verify that only one instance or copy of the game is running at a time, and make sure no other software that could affect the connection is running on the computers. Also double check the server for similar situations. If it is an issue with many people on the same server, and some get the error, the server computer might not be able to handle all the network traffic. (Try to keep a computer for only server, not playing on it if possible, and make sure that each server is on a different computer.) If the issue continues, there may be too many people on one server network-wise (Minecraft EDU can be very network intensive, and having many players may be too difficult for the server computer.) and try less players on that server. If the issue occurs across multiple servers and game computers, then this could be indicative of a network/router issue. In this case, suggest single player and try restarting the router. </p>
+<p><br> Another broad error that may occur is the "Connection reset" error. </p>
+<img src="images-CommonErrors/Connection Reset.png" alt="Image of Connection Reset Error" width="1364" height="200">
+<p>This error is a fairly broad error in computer networking, but certain issues may cause this to occur in Minecraft EDU. This error may occur if the server is restarting or shutdown. In this case, restarting the server may solve it. Another possible cause could be that the server is under heavy stress, and unable to keep up with the game actions. This sort of issue may occur if the server is ran on a game computer at the same time as someone is playing. This also may occur if many players are moving quickly and loading more of the game world than the server can handle, or many players trying to load a new dimension. This error can also occur if the players internet connection randomly is lost, which may be a result of not being close to the router or the router being disconnected. </p>
+<p> <br>Two more errors that are quite similar to one another are the "Server Closed" or "Connection forcibly reset by remote host" errors.</p>
+<img src="images-CommonErrors/ConnectionForceClosed.png" alt="Image of Connection Force Closed Error" width="854" height="480">
+<img src="images-CommonErrors/Server Closed.png" alt="Image of Server Closed Error" width="1366" height="500">
+<p> Both these errors indicate that the server was ended. This could be a result of the computer shutting down and closing the server, or the server program being quit. Restarting the server computer should resolve this issue. </p>
+<p> <br>Yet another potential error could be the "Outdated Server" or "Outdated Client" errors.</p>
+<img src="images-CommonErrors/Outdated Server.png" alt="Image of Outdated Server" width="862" height="510">
+<p> Both instances of this error are fairly self explanatory. If the error says client, the server is running a newer version than the connecting computer. Make sure the connecting computer has the same version of the game and mods as the server. If the server says error, either the connecting computer is using a newer version than the server, or the server is using a older version. Either way, once again make sure mod versions and game versions are the same. </p>
+
+
+
+      </section>
+    </div>
+
+    
+
+  </body>
+</html>

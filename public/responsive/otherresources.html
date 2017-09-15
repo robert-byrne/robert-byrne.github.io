@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Home</title>
+    <link rel="stylesheet" href="otherresourcesstyle.css">
+    <link rel="icon" href="homeicon.png">
+  </head>
+  <script>
+    function myFunction() {
+      var x = document.getElementById('myTopNav');
+
+        if(x.className==="topnav")
+        {
+            x.className+=" responsive";
+        }
+        else x.className="topnav";
+    }
+</script>
+  <body>
+    <nav class="topnav" id="myTopNav">
+      <a href="index.html">Home</a>
+      <a href="data.html">Data Page</a>
+      <a href="otherresources.html">Other Resources</a>
+      <a href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <hgroup>
+      <h1>Other Resources:</h1>
+    </hgroup>
+    <p><a href="https://en.wikipedia.org/wiki/Data">Wikipedia</a></p>
+    <p><a href="https://robert-byrne.github.io/">Rest of Website</a></p>
+    <p><a href="https://sites.google.com/mgschools.net/mgcs/home">Cool Games?</a></p>
+    <p><a href="https://education.github.com/pack">Github Student Developers Pack (Plenty of useful tools and feaures for FREE)</a></p>
+    <p><a href="https://electron.atom.io/">Electron Home Page</a></p>
+    <p><a href="https://atom.io/">Atom Home Page</a></p>
+    <p><a href="https://pages.github.com/">Github Pages (Their web hosting service) Page</a></p>
+    <p><a href="https://github.com/">Github Home Page</a></p>
+    <p><a href="https://www.reddit.com/r/webdev/">Reddit-Webdevelopment Subreddit (Plenty of useful information for Web Developers)</a></p>
+    <p><a href="https://github.com/robert-byrne/responsive">Source Code of this responsive website (Github Repo)</a></p>
+        <img src="meme-links.jpg">
+  </body>
+</html>

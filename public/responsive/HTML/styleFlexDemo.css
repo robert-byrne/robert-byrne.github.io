@@ -1,0 +1,45 @@
+main{
+	max-width: 1200px;
+	margin: 0 auto;
+	font-family: 'Lato',sans-serif;
+	/*em represents scaled based on default text size, number multiplied by default size*/
+	font-size: 1.3em;
+	color: #fff;
+	background: #000;
+}
+article, aside{
+	flex-basis: 100%;
+	padding: 15px;
+	border: 1px solid #666;
+	margin: 5px 0;
+	background: #343436;
+}
+section{
+	display: flex;
+
+}
+@media screen and (min-width: 800px)
+{
+	body{
+		background: cyan;
+		}
+	article{
+		flex:3;
+	}
+	aside{
+		flex:1;
+	}
+}
+
+@media screen and (max-width: 480px)
+{
+	body{
+		background: red;
+		}
+	section{
+		flex-wrap:wrap;
+	}
+	:nth-of-type(2){
+		order:6;
+	}
+}
